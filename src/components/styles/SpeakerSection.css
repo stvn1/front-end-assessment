@@ -1,0 +1,38 @@
+.speaker-section {
+  background-color: rgb(215, 64, 65);
+  width: 100%;
+  height: 100vh;
+}
+
+.header-box {
+  display: flex;
+}
+.header-button {
+  margin-left: auto;
+  order: 2;
+  padding: 15px;
+}
+.speaker-grid {
+  text-align: left;
+  padding-left: 10%;
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+}
+
+.title-letters {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+.small-desc {
+  font-size: 20px;
+}
+.speaker-img {
+  height: 300px;
+  width: 200px;
+  float: right;
+  padding-bottom: 30px;
+}

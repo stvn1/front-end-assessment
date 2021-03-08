@@ -1,0 +1,30 @@
+.get-exp {
+  height: 60vh;
+  width: 100%;
+  background-color: black;
+  text-align: left;
+}
+.get-exp-menu {
+  padding-bottom: 50px;
+}
+.get-exp-container {
+  display: flex;
+}
+
+.get-exp-red-lettering {
+  font-size: 40px;
+  color: rgb(214, 64, 65);
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding-left: 60px;
+}
+.get-exp-white-lettering {
+  font-size: 35px;
+  color: white;
+  letter-spacing: 3px;
+  padding-left: 60px;
+}
+.get-exp-grad-button {
+  padding: 50px;
+  padding-left: 150px;
+}

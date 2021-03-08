@@ -1,0 +1,56 @@
+.pricing-perk-section {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(215, 64, 65);
+}
+.header-box {
+  display: flex;
+}
+.header-button {
+  margin-left: auto;
+  order: 2;
+  padding: 15px;
+}
+.perks-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  padding-left: 60px;
+  letter-spacing: 3px;
+}
+
+.pricing-perks-grid {
+  padding-left: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "first second third";
+}
+.first {
+  grid-area: first;
+  color: white;
+  font-size: 30px;
+  text-align: left;
+}
+.second {
+  grid-area: second;
+  color: white;
+  font-size: 30px;
+  text-align: left;
+}
+.third {
+  grid-area: third;
+  color: white;
+  font-size: 30px;
+  text-align: left;
+}
+
+.line {
+  letter-spacing: normal;
+}
+.white-letters {
+  color: white;
+  font-size: 20px;
+}

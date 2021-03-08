@@ -1,0 +1,13 @@
+.yellow-section {
+  height: 100vh;
+  width: 100%;
+  background: rgb(255, 171, 64);
+}
+.header-box {
+  display: flex;
+}
+.header-button {
+  margin-left: auto;
+  order: 2;
+  padding: 15px;
+}
